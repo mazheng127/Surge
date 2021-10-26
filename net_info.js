@@ -15,7 +15,7 @@ while(allGroup.includes(rootName)==true){
 	rootName = (await httpAPI("/v1/policy_groups/select?group_name="+encodeURIComponent(rootName)+"")).policy;
 }
 
-$httpClient.get('http://ip-api.com/json/?lang=en', function (error, response, data) {
+$httpClient.get('http://ip-api.com/json/?lang=zh-CN', function (error, response, data) {
     const jsonData = JSON.parse(data);
     $done({
       title:rootName,
