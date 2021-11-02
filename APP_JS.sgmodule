@@ -1,5 +1,6 @@
 #!name=APP_JS
 #!desc=APP JS 模块
+#!system=ios
 
 [Script]
 # TestFlight修正 By NobyDa
@@ -16,7 +17,7 @@ TF下载修正 = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v
 # 百度（全站替换为手机百度 Quark 的 User-Agent）
 BaiduChangeUA = type=http-request,pattern=^https?:\/\/(?!d\.pcs).*(?<!map)\.baidu\.com,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/BaiduChangeUA.js
 
-# 彩云天气SVIP By Tartarus
+# 彩云天气SVIP By Tartarus2014
 彩云天气SVIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/CaiYun.js
 
 [Header Rewrite]
