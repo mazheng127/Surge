@@ -2,6 +2,7 @@
 #!desc=TikTok解锁
 
 [URL Rewrite]
+# TikTok解锁 By Tartarus2014
 (?<=_region=)CN(?=&) JP 307
 (^h.+v5\/)(.+) $1 302
 (?<=&mcc_mnc=)4 2 307
