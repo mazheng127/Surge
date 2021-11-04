@@ -3,7 +3,7 @@
 * 用法
 * [Panel]
 * #节点检测
-* ipcheck = script-name=ipcheck, title="节点相关信息", content="请刷新", style=info, update-interval=1
+* ipcheck = script-name=ipcheck, title="节点信息", content="请刷新", style=info, update-interval=1
 * ...
 * [Script]
 * #节点检测
@@ -19,7 +19,7 @@ $httpClient.get(url, function(error, response, data){
     let city = jsonData.city
     let isp = jsonData.isp
   body = {
-    title: "节点相关信息",
+    title: "节点信息",
     content: `IP位置: ${emoji}${country} - ${city}\n运营商: ${isp}`,
     icon: "globe.asia.australia.fill"
   }
