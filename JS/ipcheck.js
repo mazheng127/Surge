@@ -7,4 +7,4 @@
 * ...
 * [Script]
 * #节点检测
-* ipcheck = type=generic,timeout=3,script-path= https://raw.githubusercontent.com/gzfynn/script/main/JS/ipcheck.js
+* ipcheck = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/gzfynn/script/main/JS/ipcheck.js
