@@ -1,5 +1,6 @@
 #!name=什么值得买
 #!desc=什么值得买去广告
+#!system=ios
 
 [URL Rewrite]
 # 什么值得买去广告 By blackmatrix7
