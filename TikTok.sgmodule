@@ -1,5 +1,6 @@
 #!name=TikTok
 #!desc=TikTok解锁
+#!system=iOS
 
 [URL Rewrite]
 # TikTok解锁 By Tartarus2014
