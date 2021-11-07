@@ -3,7 +3,7 @@
 #!system=ios
 
 [Rule]
-# BiliBili去广告 by blackmatrix7
+# BiliBili去广告 By blackmatrix7
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,REJECT
 # 可能的一些推广(beta)
