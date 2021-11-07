@@ -1,5 +1,6 @@
 #!name=节点信息
 #!desc=显示Surge节点信息
+#!system=ios
 
 [Panel]
 节点信息 = script-name=节点信息,title=节点信息,content=请刷新,style=info,update-interval=60
