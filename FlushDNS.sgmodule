@@ -1,6 +1,6 @@
 #!name=DNS缓存清理
 #!desc=DNS缓存清理，显示DNS延迟和服务器
-#!system=iOS
+#!system=ios
 
 [Script]
 # FlushDNS By zZPiglet
