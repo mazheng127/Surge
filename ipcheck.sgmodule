@@ -1,5 +1,5 @@
-#!name=ipcheck
-#!desc=显示节点信息
+#!name=节点信息
+#!desc=
 #!system=ios
 
 [Panel]
