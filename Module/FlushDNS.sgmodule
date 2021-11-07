@@ -1,4 +1,4 @@
-#!name=DNS缓存清理
+#!name=FlushDNS
 #!desc=DNS缓存清理，显示DNS延迟和服务器
 #!system=ios
 
