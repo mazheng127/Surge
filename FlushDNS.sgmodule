@@ -1,0 +1,10 @@
+#!name=DNS缓存清理
+#!desc=DNS缓存清理，显示DNS延迟和服务器
+#!system=ios
+
+[Script]
+Flush DNS By zZPiglet
+flushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/flushDNS.js
+
+[Panel]
+flushDNS = script-name=flushDNS,update-interval=600
