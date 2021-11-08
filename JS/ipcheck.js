@@ -1,11 +1,11 @@
 /*
-https://raw.githubusercontent.com/congcong0806/surge-list/master/Script/ipcheck.js
+https://raw.githubusercontent.com/congcong0806/surge-list/master/JS/ipcheck.js
 
 * [Panel]
 * 节点信息 = script-name=节点信息, title="节点信息", content="请刷新", style=info, update-interval=60
 * ...
 * [Script]
-* 节点信息 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/gzfynn/Surge/main/Script/ipcheck.js
+* 节点信息 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/gzfynn/Surge/main/JS/ipcheck.js
 */
 
 let url = "http://ip-api.com/json/?lang=zh-CN"
