@@ -1,4 +1,4 @@
-const scriptName = "Bilibili";
+const scriptName = "bilibili";
 const storyAidKey = "bilibili_story_aid";
 const blackKey = "bilibili_feed_black";
 let magicJS = MagicJS(scriptName, "INFO");
