@@ -4,7 +4,7 @@
 
 [Script]
 # FlushDNS By zZPiglet
-flushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/gzfynn/Surge/main/JS/flushDNS.js
+flushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/gzfynn/Surge/main/Script/flushDNS.js
 
 [Panel]
 flushDNS = script-name=flushDNS,update-interval=600
